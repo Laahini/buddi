@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html LANG="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Find Buddi</title>
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../particles/particles.css" />
+    <link rel="stylesheet" href="../css/mediaquery.css" />
+
+    <script src="../scripts.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css">
+    <script language="JavaScript" type="text/javascript" src="../js/libraries/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header id="nav">
+        <a href="../index.html" class="logo"><img src="../media/Buddi.png" style="width:50px; height:50px;"></a>
+        <ul>
+            <li><a href="../findBuddi/findBuddi.html">Find a Buddi</a></li>
+            <li><a href="../becomeBuddi/becomeBuddi.html">Become A Buddi</a></li>
+            <li><a href="../joinClassroom/joinClassroom.html">Join Virtual Classroom</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+            <!--<li><a href="about.html">About</a></li>-->
+        </ul>
+    </header>
+    <div class="topnav" id="myTopnav">
+        <a href=".../index.html" class="active"><img src="../media/Buddi.png" style="width:40px;"></a>
+        <a href="../findBuddi/findBuddi.html">Find a Buddi</a>
+        <a href="../becomeBuddi/becomeBuddi.html">Become A Buddi</a>
+        <a href="../joinClassroom/joinClassroom.html"> Join Virtual Classroom</a>
+        <a href="../contact.html">Contact</a>
+        <!--<a href="about.html">About</a>-->
+        <a href="javascript:void(0);" class="icon" onclick="navs()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <script>
+        function navs() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    
+    <div id="particles-js"></div>
+    <script src="../particles/particles.js"></script>
+    <script src="../particles/app.js"></script>
+
+    <section id="socialMediaCV">
+        <div class="halfSplitGrid">
+            <div class="item2">
+                <h1 style="color:#f6f4f5">Find A Buddi</h1>
+            </div>
+            <div class="item">
+                <ul style="list-style-type:none">
+                    <li><a class="hvr-grow-shadow" href="https://www.instagram.com/cumberlandvalleypa/" target="_blank"><button class="buttonForSocialMedia">Check out CV's Instagram!    <i class="fa fa-instagram"></i></button></a></li>
+                    <br>
+                    <li><a class="hvr-grow-shadow" href="https://mobile.twitter.com/FlyCVEagles" target="_blank"><button class="buttonForSocialMedia">Check out CV's Twitter!    <i class="fa fa-twitter"></i></button></a></li>
+                    <br>
+                    <li><a class="hvr-grow-shadow" href="https://www.youtube.com/c/cumberlandvalleytv" target="_blank"><button class="buttonForSocialMedia">Check out CV's Youtube!    <i class="fa fa-youtube-play"></i></button></a></li>
+                    <br>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="mottoD">
+        <div>
+            <h1>Soaring to Greatness,</h1>
+            <h1>Committed to Excellence</h1>
+        </div>
+    </section>
+
+    <script>
+        var accord = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < accord.length; i++) {
+            accord[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropped = this.nextElementSibling;
+                if (dropped.style.maxHeight) {
+                    dropped.style.maxHeight = null;
+                } else {
+                    dropped.style.maxHeight = dropped.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+
+
+
+   
+
+</body>
+<footer>
+    <div class="threeSplitGrid">
+        <div>
+            <h2>About</h2>
+            <ul>
+                <li><a href="#" target="_blank">About Buddi</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Community</h2>
+            <ul>
+                <li><a href="findBuddi/findBuddi.html" target="_blank">Find A Buddi</a></li>
+                <li><a href="becomeBuddi/becomeBuddi.html" target="_blank">Become A Buddi</a></li>
+                <li><a href="joinClassroom/joinClassroom.html" target="_blank">Join Virtual Classroom</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Catalog</h2>
+            <ul>
+                <li><a>Math</a></li>
+                <li><a>ELA</a></li>
+                <li><a>Science</a></li>
+            </ul>
+        </div>
+    </div>
+    <p> ©CV TSA. All Rights Reserved</p>
+</footer>
+<script>
+    var accord = document.getElementsByClassName("accordionFt");
+    var i;
+
+    for (i = 0; i < accord.length; i++) {
+        accord[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var dropped = this.nextElementSibling;
+            if (dropped.style.maxHeight) {
+                dropped.style.maxHeight = null;
+            } else {
+                dropped.style.maxHeight = dropped.scrollHeight + "px";
+            }
+        });
+    }
+</script>
+</html>

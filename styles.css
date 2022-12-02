@@ -17,7 +17,6 @@
 
 body {
     background: var(--cream);
-    min-height: 200vh;
 }
 
 p {
@@ -97,7 +96,7 @@ h1 {
 }
 
 #whyJoin .benefitPart {
-    background: rebeccapurple;
+    background: rgb(75, 0, 130);
     color: var(--cream);
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.01), 0 6.7px 5.3px rgba(0, 0, 0, 0.018), 0 12.5px 10px rgba(0, 0, 0, 0.006), 0 22.3px 17.9px rgba(0, 0, 0, 0.012), 0 41.8px 33.4px rgba(0, 0, 0, 0.006), 0 100px 80px rgba(0, 0, 0, 0.04);
 }
@@ -301,7 +300,7 @@ h1 {
     position: relative;
     padding-top: 5%;
     width: 100%;
-    height: 160vh;
+    height: 75%;
     background: #fff;
     background-size: cover;
 }
@@ -451,7 +450,8 @@ h1 {
 }
 #socialMediaCV
 {
-  background:var(--red);
+  background:midnightblue;
+  padding-top: 200px;
 }
 .tsabtn {
     text-decoration: none;
@@ -1293,7 +1293,7 @@ h1 {
 }
 
 .glassmorphism {
-    background: rgba( 255, 255, 255, 0.7);
+    background: black;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.3);
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.1);
@@ -1307,7 +1307,7 @@ h1 {
 }
 
 footer {
-    background: var(--orange1);
+    background: black;
     color: var(--cream);
     padding: 1%;
     font-family:'Kanit', sans-serif;

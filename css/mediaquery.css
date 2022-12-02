@@ -133,7 +133,7 @@
     line-height: 23px;
     text-align: left;
   }
-  footer{display:none;}
+  /*footer{display:none;}*/
   footer p{text-align: center;}
   #footer
   {
@@ -248,11 +248,11 @@
     padding:0%;
     padding-top:15%;
   }
-  #countdown .fourSplitGrid
+  #countdown .threeSplitGrid
   {
     position:relative;
     display:grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: 100%;
     grid-column-gap: 1%;
   }
@@ -852,7 +852,6 @@
 
 /*Nav*/
 .topnav {
-  background-color: var(--green1);
   overflow: hidden;
   width:100%;
 }
